@@ -10,6 +10,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-06
+
 ### Changed
 
 - Links, badges and the update checker's registry address now point to the Pigeon Studios GitHub organisation, [pigeon-studios-uk](https://github.com/pigeon-studios-uk). Old WelshPigeon links still redirect, and copies already installed keep working.
@@ -40,5 +42,6 @@ First release. Pigeon Property Watch replaces Inactive Property Alert.
 - Update checker from the Pigeon Studios version registry.
 - Tests for the core logic and the resource in plain Lua 5.4, and for every query against MariaDB 10.6 and 11.4.
 
-[Unreleased]: https://github.com/pigeon-studios-uk/pigeon-property-watch/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/pigeon-studios-uk/pigeon-property-watch/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/pigeon-studios-uk/pigeon-property-watch/releases/tag/v1.0.1
 [1.0.0]: https://github.com/pigeon-studios-uk/pigeon-property-watch/releases/tag/v1.0.0
