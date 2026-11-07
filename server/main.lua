@@ -18,7 +18,9 @@ local checking = false
 ---------------------------------------------------------------------------
 -- Text and logging
 
-local strings = Locales[Config.Locale] or Locales.en
+-- 'auto' follows ox_lib's language (the ox:locale convar), and English when that isn't set.
+local locale = Config.Locale == 'auto' and GetConvar('ox:locale', 'en') or Config.Locale
+local strings = Locales[locale] or Locales.en
 
 local function t(key, values)
     local text = strings[key] or Locales.en[key] or key
