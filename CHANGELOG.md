@@ -10,6 +10,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-07
+
 ### Added
 
 - 22 more languages, so it now comes in 23: Czech, Danish, German, Spanish, Estonian, Finnish, French, Croatian, Hungarian, Indonesian, Italian, Dutch, Norwegian, Polish, Portuguese, Brazilian Portuguese, Romanian, Slovenian, Swedish, Turkish, and Simplified and Traditional Chinese.
@@ -47,6 +49,7 @@ First release. Pigeon Property Watch replaces Inactive Property Alert.
 - Update checker from the Pigeon Studios version registry.
 - Tests for the core logic and the resource in plain Lua 5.4, and for every query against MariaDB 10.6 and 11.4.
 
-[Unreleased]: https://github.com/pigeon-studios-uk/pigeon-property-watch/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/pigeon-studios-uk/pigeon-property-watch/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/pigeon-studios-uk/pigeon-property-watch/releases/tag/v1.1.0
 [1.0.1]: https://github.com/pigeon-studios-uk/pigeon-property-watch/releases/tag/v1.0.1
 [1.0.0]: https://github.com/pigeon-studios-uk/pigeon-property-watch/releases/tag/v1.0.0
